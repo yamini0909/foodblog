@@ -1,0 +1,109 @@
+body{
+    padding: 0px 20px 20px 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    top: 0;
+    z-index: 1;
+    padding: 0px 30px;
+    box-shadow: 0 10px 10px -10px #000000;
+}
+.box1{
+    padding-top: 80px;
+}
+.box1 ,.box2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    margin-bottom: 50px;
+}
+.box-2{
+    margin-top: 30px;
+}
+.page{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.title-for-box-3{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.sub-heading-box-3 ,.sub-sub-heading-for-box-3 ,.description-box-3 ,.footer-title ,.footer-description ,.blog-post ,.popular-tag{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.button-side{
+    padding: 8px 16px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    color: black; 
+}
+.button{
+    padding: 8px 16px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: white;
+}
+.button:hover ,.button-side:hover{
+    opacity: 50%;
+}
+.common{
+    padding: 0px;
+    text-align: center;
+}
+.description{
+    text-align: center;
+}
+.title-for-box-3 ,.sub-heading-box-3 ,.sub-sub-heading-for-box-3 ,.description-box-3{
+    text-align: center;
+}
+.footer-box{
+    display: flex;
+    padding: 20px;
+}
+.box-a ,.box-b ,.box-c{
+    margin: 10px;
+    width: 30%;
+}
+.box-b1 ,.box-b2{
+    list-style: none;
+    padding: 0px;
+}
+.top{
+    border-bottom: 1px solid grey;
+}
+.lorem ,.lorem-description ,.ipsum ,.ipsum-description{
+    margin-left: 68px;
+}
+.image{
+    float: left;
+}
+.black-tags{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    margin-bottom: 15px;
+    display: inline-block;   
+}
+.black-tags:hover ,.tag:hover ,.top-box:hover ,.bottom-box:hover{
+   background-color: rgb(148, 145, 145);
+}
+.image-hover:hover ,.top-box:hover ,.bottom-box:hover{
+    opacity: 50%;
+}
+.tag{
+    background-color: grey;
+    color: white;
+    padding: 3px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
